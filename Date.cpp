@@ -14,37 +14,6 @@
 using std::cout;
 using std::cin;
 
-
-
-
-//class Date
-//{
-// public:
-//    Date ();
-//    Date ( int, int, int );
-//    void display();                   
-//    int GetMonth();
-//    void SetMonth(int);
-//	int GetDay();
-//	void SetDay( int);
-//	int GetYear();
-//	void SetYear(int);
-//    void setDate(int, int, int);
-//    ~Date();
-//
-//	Date operator+ ( int );
-//	Date operator- ( int );
-//	bool leapYear( int );
-//	
-//	
-//
-// private:
-//    int month, day, year;
-//	
-//   
-//};
-
-
  Date::Date ()												// constructor definition
 {
    month = day = year = 1;
