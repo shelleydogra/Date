@@ -13,7 +13,7 @@ class Date {
     
 public:
     Date ();
-    Date ( int, int, int );
+    Date (int, int, int);
     
     void display();
     
