@@ -1,6 +1,6 @@
 //
 //  Date.h
-//  Date
+//  Class Date
 //
 //  Created by Shelley Dogra on 1/23/17.
 //  Copyright © 2017 Shelley Dogra. All rights reserved.
@@ -13,7 +13,9 @@ class Date {
     
 public:
     Date ();
+
     Date (int, int, int);
+
     
     void display();
     
