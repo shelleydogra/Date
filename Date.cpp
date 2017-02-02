@@ -199,6 +199,8 @@ Date Date :: operator- (int daysIn)
 
 bool intValidated(int intToBeValidated, int rangeBegin, int rangeEnd);
 
+Date dateInput();
+
 
 int main()
 {
@@ -273,6 +275,7 @@ int main()
     
     
     
+    
 
    cout << "\n\n\n\n";
    return 0;
@@ -281,4 +284,10 @@ int main()
 bool intValidated(int intToBeValidated, int rangeBegin, int rangeEnd) {
   
     return (intToBeValidated >= rangeBegin && intToBeValidated <= rangeEnd);
+}
+
+Date dateInput() {
+    Date date;
+    
+    return date;
 }
